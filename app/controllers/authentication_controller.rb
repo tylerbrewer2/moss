@@ -1,6 +1,4 @@
 class AuthenticationController < ApplicationController
-  include SessionConcern
-  before_action :find_user
 
   def login
     reset_session
